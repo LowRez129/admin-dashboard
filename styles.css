@@ -21,6 +21,8 @@ body {
     grid-area: sidebar;
     background-color: green; 
     gap: 20px;
+    padding: 8px;
+    border: solid;
 }
 
 #topbar {
@@ -62,6 +64,14 @@ body {
 
 .side-container {
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr 3fr;
     background-color: aquamarine;
+    padding: 8px;
+    gap: 32px;
+}
+
+.side-container > div > .container-1,
+.side-container > div > .container-2 {
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
 }
